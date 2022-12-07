@@ -40,7 +40,7 @@ else:
 
 ######### Exercice 8 #########
 
-myname="Tatiana"
+myname="Carter"
 n=input("quel est votre nom ?" "")
 if n==myname:
       print("nous avons les meme nom")
