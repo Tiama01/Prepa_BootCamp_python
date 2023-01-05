@@ -1,0 +1,33 @@
+{%load static %}
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>People</title> 
+</head>
+<body>
+    <h1>Listes des personnes </h1> 
+    <table class="table table-striped table-sm">
+        <thead>
+          <tr>
+            <th scope="col">id</th>
+            <th scope="col">name</th>
+            <th scope="col">age</th>
+            <th scope="col">country</th>
+            <th scope="col">detail</th>
+            
+          </tr>
+        </thead>
+        <tbody>
+            {% for values in people %} 
+          <tr>
+            <td>{{values.id}}</td>
+            <td>{{values.name}}</td>
+            <td>{{values.age}}</td>
+            <td>{{values.country}}</td>
+            <td>{{values.detail}}</td>
+          
+          </tr>
+          {% endfor %}> 
+        </table>
+</body>
+</html>

@@ -1,4 +1,4 @@
-# Exercice 1 
+########### Exercice 1 ########
 class Pets():
     def __init__(self, animals):
         self.animals = animals
@@ -41,7 +41,7 @@ sara_pets.walk()
 
 
 
-# Exercice 2 
+########### Exercice 2 ########
 
 class Dog:
     def __init__(self,name,age,weight):
